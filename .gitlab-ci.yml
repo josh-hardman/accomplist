@@ -1,0 +1,9 @@
+image: node
+
+stages:
+  - build
+
+job1:
+  stage: build
+  script:
+    - echo this is job1 in the build stage

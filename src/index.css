@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Grotesk";
+  src: url('./Fonts/Akzidenz-grotesk-roman.ttf') format('truetype');
+}
+@font-face {
+  font-family: "GroteskLight";
+  src: url('./Fonts/Akzidenz-grotesk-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: "GroteskBold";
+  src: url('./Fonts/Akzidenz-grotesk-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "GroteskBolder";
+  src: url('./Fonts/Akzidenz-grotesk-black.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Grotesk", sans-serif;
+}
+
+body, #root {
+  height: 100%;
+}

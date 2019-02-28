@@ -1,0 +1,4 @@
+.logout-divider {
+  border-top: 1px solid var(--rhino);
+  padding-top: 8px;
+}

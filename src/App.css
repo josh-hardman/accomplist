@@ -1,0 +1,21 @@
+@import 'styles/antd.css';
+@import 'colors.css';
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.route-container {
+  width: 100%;
+}
+
+.route-container .logo {
+  height: 64px;
+  background: var(--shamrock);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <script type="text/javascript">
+      var ua = navigator.userAgent;
+      /* MSIE used to detect old browsers and Trident used to newer ones */
+      var isUnsuppored = ua.indexOf('MSIE') > -1 || ua.indexOf('Trident/') > -1;
+
+      if (isUnsuppored) {
+        if (
+          window.confirm(
+            'Thank you for visiting Accomplist. In order to provide the best digital experience, we currently only support modern browsers. Please consider downloading one of the following: Google Chrome, Firefox, Edge (Microsoft), Safari (Mac). Thank you!'
+          )
+        ) {
+          window.location.href =
+            'https://www.google.com/chrome/browser/index.html';
+        }
+      }
+    </script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+    <title>Accomplist</title>
+  </head>
+
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
+  </body>
+</html>

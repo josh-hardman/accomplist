@@ -1,0 +1,27 @@
+.navigation-logo {
+  height: 64px;
+  background: var(--shamrock);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eq-logo-wrapper {
+  width: 100%;
+  padding: 24px;
+}
+
+.responsive-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-elipsis {
+  font-size: 32px;
+}
+
+.avatar-dropdown {
+  display: flex;
+  justify-content: center;
+  margin-left: 8px;
+}

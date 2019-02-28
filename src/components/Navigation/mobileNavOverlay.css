@@ -1,0 +1,36 @@
+.mobile-eq-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mobile-responsive-logo {
+  height: 30px;
+}
+
+.close-mobile-nav {
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  padding: 12px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  user-select: none;
+}
+
+.mobile-nav-list li {
+  padding: 12px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.mobile-nav-list li:active {
+  background: var(--rhino);
+}
